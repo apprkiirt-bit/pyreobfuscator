@@ -1,0 +1,53 @@
+# deps
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# build output
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+credentials.json
+secrets.*
+
+# editor / os
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# logs / temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# model / data dumps
+*.gguf
+*.onnx
+*.pt
+*.safetensors
